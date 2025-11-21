@@ -1,6 +1,7 @@
 name: Transfer Cron Job
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "13 01 * * *"
 
